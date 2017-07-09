@@ -13,3 +13,5 @@ Dann muss über das Terminal in dieses Verzeichnis navigiert werden (cd [filepat
 Anschließend kann man mit:
 "./floatSin" beliebige Sinuswerte von im Terminal eingegebenen Werten ausgeben lassen.
 "./floatSinTest" das Testprogramm starten, welches nach Genauigkeit und Geschwindigkeit mit den C-Sinusfunktionen vergleicht.
+
+Mit “make clean” kann abschließend das Verzeichnis wieder in die Ausgangslage versetzt werden.

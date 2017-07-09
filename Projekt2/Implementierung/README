@@ -19,3 +19,5 @@ Nun sollte man per Menüleiste so lange rauszoomen (Lupe mit "-"), bis rechts de
 Zum besseren Verständnis können die inserteten Signale noch per Auswahl und Rechtsclick je nach Belieben in die gewünschte Zahlendarstellung konvertiert werden (unsere Empfehlung ist Binär für die left und right Ausgänge, und Dezimal für den Counter.)
 
 Sämtliche Signalwerte und ihr Verlauf sind nun rechts in Graphenform sichtbar. 
+
+Mit “make clean” kann abschließend das Verzeichnis wieder in die Ausgangslage versetzt werden.
