@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+------------------------ANLEITUNG FUER MACOSX-----------------------------------
+--------------------------------------------------------------------------------
+
+Compiler: Clang
+x86 nasm-Syntax
+getestetes Betriebssystem: macOS Sierra 10.12.5
+
+Zum Kompilieren müssen sich “Makefile”, ”lut.asm", "sin.asm", "rahmenProgramm.c" und "testProgramm.c" im gleichen Verzeichnis befinden.
+
+Dann muss über das Terminal in dieses Verzeichnis navigiert werden (cd [filepath]), und der "make" Befehl in der Commandozeile aufgerufen werden.
+
+Anschließend kann man mit:
+"./floatSin" beliebige Sinuswerte von im Terminal eingegebenen Werten ausgeben lassen.
+"./floatSinTest" das Testprogramm starten, welches nach Genauigkeit und Geschwindigkeit mit den C-Sinusfunktionen vergleicht.

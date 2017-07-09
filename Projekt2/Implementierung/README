@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+------------------------ANLEITUNG FUER MACOSX-----------------------------------
+--------------------------------------------------------------------------------
+
+Compiler: GHDL
+Simulator/Visuelle Darstellung: GTKWave
+getestetes Betriebssystem: macOS Sierra 10.12.5
+
+Zum Kompilieren müssen sich "Makefile", "stp_tb.vhdl", und "stp.vhdl" im gleichen Verzeichnis befinden.
+
+Dann muss über das Terminal in dieses Verzeichnis navigiert werden, und der "make" Befehl aufgerufen werden.
+
+Anschließend muss man "stp.vcd" in GTKWave öffnen (einfach per Doppelclick auf die Datei, falls GTKWave installiert ist), und dort den audioconverter im links oberen Feld auswählen.
+
+Nun kann man unten links sämtliche Signale auswählen (CMD + A machts leicht) und Inserten. 
+
+Nun sollte man per Menüleiste so lange rauszoomen (Lupe mit "-"), bis rechts der Graph in Nanosekundenschritten dargestellt ist. 
+
+Zum besseren Verständnis können die inserteten Signale noch per Auswahl und Rechtsclick je nach Belieben in die gewünschte Zahlendarstellung konvertiert werden (unsere Empfehlung ist Binär für die left und right Ausgänge, und Dezimal für den Counter.)
+
+Sämtliche Signalwerte und ihr Verlauf sind nun rechts in Graphenform sichtbar. 
